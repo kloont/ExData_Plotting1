@@ -32,7 +32,7 @@ plot(myData$myTime2,maxsubdata,type ="n", xlab="",ylab="Energy sub metering")
 lines(myData$myTime2,myData$Sub_metering_1, col="black")
 lines(myData$myTime2,myData$Sub_metering_2, col="red")
 lines(myData$myTime2,myData$Sub_metering_3, col="blue")
-legend("topright",legend=c("Sub_metering_1","Sub_metering_2", "Sub_metering_3"),col=c("black","red","blue"),btg="n",lty=c(1,1,1))
+legend("topright",legend=c("Sub_metering_1","Sub_metering_2", "Sub_metering_3"),col=c("black","red","blue"),bty="n",lty=c(1,1,1))
 #Graph 4
 plot(myTime2,myData$Global_reactive_power, xlab="datetime",ylab="Global_reactive_power",type="l")
 
